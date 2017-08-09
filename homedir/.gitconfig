@@ -1,0 +1,5 @@
+[user]
+	email = gitlab@gitlab.com
+	name = Gitlab CI Server
+[push]
+	default = current

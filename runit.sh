@@ -1,0 +1,1 @@
+docker run -i -t --rm donhenton/npm-docker-gitlab /bin/bash

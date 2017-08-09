@@ -1,0 +1,1 @@
+docker build --tag donhenton/npm-docker-gitlab:latest .
