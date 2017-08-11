@@ -6,11 +6,12 @@ RUN apk add --no-cache \
     openssh-client \
     git \
     nodejs \
+    py-pip gettext \
     nodejs-npm \
     openssh \
     bash \
-    curl wget
-
+    curl wget \
+    && pip install docker-compose
  
 ENV NODE_VERSION 6.10.3
 ENV NPM_VERSION 3.10.10
@@ -20,4 +21,4 @@ RUN chmod 400 /root/.ssh/*
 RUN chmod 555 /root/*.sh
 
  
- 
+  

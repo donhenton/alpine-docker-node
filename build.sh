@@ -1,1 +1,1 @@
-docker build --tag donhenton/npm-docker-gitlab:latest .
+docker build --tag donhenton/alpine-docker-node:latest .
